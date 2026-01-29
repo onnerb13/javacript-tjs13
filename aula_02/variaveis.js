@@ -16,3 +16,12 @@ console.log("Sálario Liquído: ",
         currency: 'BRL',
     }).format(salarioBruto + (bonus * salarioBruto))
 )
+
+
+
+
+else if (idadeDoador > 18 && idadeDoador < 69 && primeiraDoacao == 'true' || primeiraDoacao == 'false' ){
+    console.log(`${nomeDoador} está apto para doar sangue!`)
+} else {
+    console.log(`${nomeDoador} não está apto para doar sangue!`)
+}
